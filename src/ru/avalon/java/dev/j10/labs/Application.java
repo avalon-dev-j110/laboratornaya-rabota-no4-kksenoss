@@ -12,7 +12,8 @@ public class Application {
          * чтобы он содержал 20 строк, расположенных не
          * по порядку.
          */
-	    String[] strings = null;
+	    String[] strings = {"The", "man", "in", "black", "fled", "across", "the", "desert", 
+            "and", "the", "gunslinger", "followed", "test", "free", "wish", "end", "mass" ,"ace", "of", "spades"};
 
 	    /*
 	     * TODO(Студент): Проинициализируйте массив persons
@@ -23,7 +24,10 @@ public class Application {
 	     *    экземплярыми созданного класса.
 	     */
 	    Person[] persons = null;
-
+            persons = new Person[20];
+            persons[0] = new implPerson();
+            
+            persons[19] = new implPerson();
         /*
          * TODO(Студент): Проинициализируйте переменную sort
          *
